@@ -8,10 +8,13 @@ import Portfolio from './components/portfolio/Projects'
 import Textmonials from './components/textmonials/Textmonials'
 import Contact from './components/Contact/Contact'
 import Footer from './components/footer/Footer'
+
 const App = () => {
   return (
     <>
-     <Header />
+      
+    
+    <Header />
      <Nav />
      <About />
      <Experience />
@@ -20,6 +23,7 @@ const App = () => {
      <Textmonials />
      <Contact />
      <Footer />
+    
 
     </>
   )

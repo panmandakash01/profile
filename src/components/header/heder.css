@@ -1,6 +1,6 @@
 
  header{
-    height: 135vh;
+    height: 105vh;
     padding-top: 7rem;
     overflow: hidden;
 } 
@@ -79,7 +79,10 @@
   
   @media screen and (max-width: 600px) {
     header{
-        height: 95vh;
+        width: 100%;
+        padding: 2rem 1rem;
+        margin-left: 4rem;
+        height: 100vh;
         align-items: center;
     }
     .heder__socials,
@@ -89,10 +92,10 @@
     
     }
 
-    header div{
+    .div{
         width: 100%;
-        padding: 2rem 1rem;
-        margin-left: 2.2rem;
+        /* padding: 2rem 1rem; */
+        /* margin-left: 2.2rem; */
     }
 
    
