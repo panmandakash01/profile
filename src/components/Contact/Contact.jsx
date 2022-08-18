@@ -85,10 +85,11 @@ const Contact = () => {
             placeholder="Your message"
             required
           ></textarea>
-
-          <button type="submit" className="btn btn-primary">
-            Send Message
+           <button type="submit" className="button" >
+            <span className="text"> Send Message </span> 
+            <BiCheck className="icon" />
           </button>
+         
         </form>
       </div>
     </section>
