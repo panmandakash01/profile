@@ -3,6 +3,7 @@ import "./contact.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsInstagram} from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
+import {BiCheck} from "react-icons/bi";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
